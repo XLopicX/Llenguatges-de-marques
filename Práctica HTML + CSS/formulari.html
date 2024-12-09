@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="formulari">
+<div class="logo">
+  <img src="Resources/icons8-roblox-100.png" alt="Logo">
+
+  <nav>
+    <a href="index.html">Pàgina Principal</a>
+    <a href="usuaris.html">Pàgina d'Usuaris</a>
+    <a href="formulari.html">Formulari de Registre d'Usuaris</a>
+  </nav>
+</div>
+<h1>Formulari</h1>
+<form>
+  <label for="NomU">Nom d'usuari:</label><br>
+  <input type="text" name="NomU" id="NomU"> <br> <br>
+  <label for="Contrasenya">Contrasenya:</label><br>
+  <input type="password" name="Contrasenya" id="Contrasenya"> <br> <br>
+  <label for="Nom">Nom i Cognoms:</label><br>
+  <input type="text" name="Nom" id="Nom" required> <br> <br>
+  <label for="Correu">Correu:</label><br>
+  <input type="email" name="Correu" id="Correu" required> <br> <br>
+  <label for="desc">Descripció (biografia o un petit resum):</label> <br>
+  <textarea name="desc" id="desc" cols="30" rows="10"></textarea> <br>
+  <button class="form" type="submit">Enviar</button>
+</form>
+
+</body>
+</html>

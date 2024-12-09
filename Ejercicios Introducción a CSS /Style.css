@@ -1,0 +1,20 @@
+header {
+    background-color: #333;
+    color: white;
+    align-content: center;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    border: lightgray;
+    border: solid, 1px;
+    
+}
+
+img {
+    display: block; /* Ni idea de perque aquestes 3 linies, pero es el que he trobat buscant com fer-ho */
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
